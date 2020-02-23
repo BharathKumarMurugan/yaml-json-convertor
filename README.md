@@ -3,24 +3,23 @@
 This python script converts **YAML to JSON** and **JSON to YAML**.
 
 ## Usage
-### Arguments:
+<pre>
+usage: convert.py [-h] [-t TYPE] [-n NAME] [-f FILE] [-o OUTPUT]
 
-<pre>-h, --help      show this help message and exit
--i, --input     input file format - {json|yaml}
--f, --file      input absolute file path to convert</pre>
-
-### Positional Arguments:
-
-<pre>-f, --file      input absolute file path to convert
--i, --input     input file format - {json|yaml}</pre>
-
-### Examples:
+optional arguments:
+  -h, --help            show this help message and exit
+  -t TYPE, --type TYPE  type of the file format {json|yaml}
+  -n NAME, --name NAME  name of the output file
+  -f FILE, --file FILE  Absolute path of the file
+  -o OUTPUT, --output OUTPUT
+                        Absolute path of the destination directory
+</pre>
 
 * Display help message:
 `python convert.py -h`
 
 * Convert *JSON to YAML*:
-`python convert.py -f /path/to/json/file -i json`
+`python convert.py -t json -n myfile -f /path/to/json/file -o /path/to/save`
 
 * Convert *YAML to JSON*:
-`python convert.py -f /path/to/yaml/file -i yaml`
+`python convert.py -t yaml -n myfile -f /path/to/yaml/file -o /path/to/save`
