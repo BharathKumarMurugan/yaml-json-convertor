@@ -4,13 +4,13 @@ This python script converts **YAML to JSON** and **JSON to YAML**.
 
 ## Arguments:
 
-`-h, --help      show this help message and exit
--i, --input     input file format - {json|yaml}
+`-h, --help      show this help message and exit <br/>
+-i, --input     input file format - {json|yaml} <br/>
 -f, --file      input absolute file path to convert`
 
 ## Positional Arguments:
 
-`-f, --file      input absolute file path to convert
+`-f, --file      input absolute file path to convert <br/>
 -i, --input     input file format - {json|yaml}`
 
 ## Examples:
