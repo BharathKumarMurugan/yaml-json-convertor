@@ -4,7 +4,7 @@ This python script converts **YAML to JSON** and **JSON to YAML**.
 
 ## Usage
 
-* Display Help content
+* Display Help content:
 `python convert.py -h`
 
 * Convert *JSON to YAML*:
